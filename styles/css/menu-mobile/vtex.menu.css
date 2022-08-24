@@ -44,16 +44,6 @@
   margin-bottom: 8px;
 }
 
-.styledLinkContainer--submenu-mobile-underline {
-  padding: 16px 0;
-}
-
-.styledLinkContent--submenu-mobile-underline {
-  font-weight: 700;
-  text-decoration: underline;
-
-  color: #fcc005;
-}
 
 .styledLinkContent--menu-special {
   color: #fcc005;
@@ -67,7 +57,7 @@
   background-size: contain;
   width: 8px;
   height: 14px;
-  transition: .1s ease;
+  transition: 0.1s ease;
 }
 
 .accordionIcon--mobile--isOpen {
@@ -80,4 +70,15 @@
   height: 14px;
   transform: rotate(-90deg);
   transition: 0.1s ease;
+}
+
+.menuItem--submenu-mobile:last-child .styledLinkContainer {
+  padding: 16px 0;
+}
+
+.menuItem--submenu-mobile:last-child .styledLinkContent {
+  font-weight: 700;
+  text-decoration: underline;
+
+  color: #fcc005;
 }

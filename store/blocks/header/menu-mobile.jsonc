@@ -110,14 +110,58 @@
     "props": {
       "orientation": "vertical",
       "experimentalOptimizeRendering": true,
+      "items": [
+        {
+          "id": "submenu-calcas-wide-leg",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Wide Leg",
+            "text": "Wide Leg"
+          }
+        },
+        {
+          "id": "submenu-calcas-mom",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Mom",
+            "text": "Mom"
+          }
+        },
+        {
+          "id": "submenu-calcas-baggy",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Baggy",
+            "text": "Baggy"
+          }
+        },
+        {
+          "id": "submenu-calcas-ver-tudo",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Ver Tudo",
+            "text": "Ver Tudo"
+          }
+        }
+      ],
       "blockClass": ["submenu-mobile"]
-    },
-    "children": [
-      "menu-item#calcas-wide-leg",
-      "menu-item#calcas-mom",
-      "menu-item#calcas-baggy",
-      "menu-item#calcas-ver-tudo"
-    ]
+    }
   },
   "menu-item#accordion--camisas": {
     "title": "[Drawer] - Categoria Camisas",
@@ -147,13 +191,57 @@
     "props": {
       "orientation": "vertical",
       "experimentalOptimizeRendering": true,
+      "items": [
+        {
+          "id": "submenu-camisas-teste-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Teste 1",
+            "text": "Teste 1"
+          }
+        },
+        {
+          "id": "submenu-camisas-teste-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Teste 2",
+            "text": "Teste 2"
+          }
+        },
+        {
+          "id": "submenu-camisas-teste-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Teste 3",
+            "text": "Teste 3"
+          }
+        },
+        {
+          "id": "submenu-camisas-ver-tudo",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Ver Tudo",
+            "text": "Ver Tudo"
+          }
+        }
+      ],
       "blockClass": ["submenu-mobile"]
-    },
-    "children": [
-      "menu-item#camisas-teste-1",
-      "menu-item#camisas-teste-2",
-      "menu-item#camisas-teste-3",
-      "menu-item#camisas-ver-tudo"
-    ]
+    }
   }
 }
