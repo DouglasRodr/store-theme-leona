@@ -2,6 +2,8 @@
   "menu#drawermobile": {
     "title": "[Drawer] - Menu mobile",
     "children": [
+      "flex-layout.row#login-mobile",
+      "flex-layout.row#minha-conta-pedidos",
       "menu-item#ver-tudo",
       "menu-item#novidades",
       "menu-item#accordion--calcas",
@@ -10,6 +12,42 @@
     "props": {
       "orientation": "vertical",
       "blockClass": ["mobile"]
+    }
+  },
+  "flex-layout.row#login-mobile": {
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["login-mobile"]
+    },
+    "children": ["login#mobile"]
+  },
+  "login#mobile": {
+    "props": {
+      "showIconProfile": false,
+      "iconLabel": "Faça login ou cadastre-se",
+      "labelClasses": ["mobile"]
+    }
+  },
+  "flex-layout.row#minha-conta-pedidos": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["minha-conta-pedidos"]
+    },
+    "children": ["link#minha-conta", "link#meus-pedidos"]
+  },
+  "link#minha-conta": {
+    "props": {
+      "href": "/account#/profile",
+      "label": "Minha Conta",
+      "blockClass": ["menu-mobile"]
+    }
+  },
+  "link#meus-pedidos": {
+    "props": {
+      "href": "/account#/orders",
+      "label": "Meus Pedidos",
+      "blockClass": ["menu-mobile"]
     }
   },
   "menu-item#ver-tudo": {

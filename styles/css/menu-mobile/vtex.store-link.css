@@ -1,0 +1,12 @@
+.link--menu-mobile {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+
+  padding: 16px 0 19px 0;
+
+  color: #222222;
+}
