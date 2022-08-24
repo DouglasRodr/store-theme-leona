@@ -1,0 +1,66 @@
+{
+  "menu-item#calcas-wide-leg": {
+    "props": {
+      "id": "menu-mobile-calcas-wide-leg",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Wide Leg",
+        "text": "Wide Leg"
+      },
+      "blockClass": ["submenu-mobile"]
+    }
+  },
+  "menu-item#calcas-mom": {
+    "props": {
+      "id": "menu-mobile-calcas-mom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mom",
+        "text": "Mom"
+      },
+      "blockClass": ["submenu-mobile"]
+    }
+  },
+  "menu-item#calcas-baggy": {
+    "props": {
+      "id": "menu-mobile-calcas-baggy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Baggy",
+        "text": "Baggy"
+      },
+      "blockClass": ["submenu-mobile"]
+    }
+  },
+  "menu-item#calcas-ver-tudo": {
+    "props": {
+      "id": "menu-mobile-calcas-ver-tudo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ver Tudo",
+        "text": "Ver Tudo"
+      },
+      "blockClass": ["submenu-mobile", "submenu-mobile-underline"]
+    }
+  }
+}

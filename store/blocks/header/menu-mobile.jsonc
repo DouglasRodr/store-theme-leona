@@ -1,0 +1,121 @@
+{
+  "menu#drawermobile": {
+    "title": "[Drawer] - Menu mobile",
+    "children": [
+      "menu-item#ver-tudo",
+      "menu-item#novidades",
+      "menu-item#accordion--calcas",
+      "menu-item#accordion--camisas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["mobile"]
+    }
+  },
+  "menu-item#ver-tudo": {
+    "props": {
+      "id": "menu-mobile-ver-tudo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/teste",
+        "noFollow": true,
+        "tagTitle": "Ver Tudo",
+        "text": "Ver Tudo"
+      },
+      "blockClass": ["mobile", "menu-special"]
+    }
+  },
+  "menu-item#novidades": {
+    "props": {
+      "id": "menu-mobile-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/teste2",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      },
+      "blockClass": ["mobile"]
+    }
+  },
+  "menu-item#accordion--calcas": {
+    "title": "[Drawer] - Categoria Calças",
+    "props": {
+      "id": "menu-mobile-accordion-calcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Calças",
+        "text": "Calças"
+      },
+      "blockClass": ["mobile"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#calcas"]
+  },
+  "vtex.menu@2.x:submenu.accordion#calcas": {
+    "props": {
+      "blockClass": ["mobile"]
+    },
+    "children": ["vtex.menu@2.x:menu#submenu-calcas"]
+  },
+  "vtex.menu@2.x:menu#submenu-calcas": {
+    "props": {
+      "orientation": "vertical",
+      "experimentalOptimizeRendering": true,
+      "blockClass": ["submenu-mobile"]
+    },
+    "children": [
+      "menu-item#calcas-wide-leg",
+      "menu-item#calcas-mom",
+      "menu-item#calcas-baggy",
+      "menu-item#calcas-ver-tudo"
+    ]
+  },
+  "menu-item#accordion--camisas": {
+    "title": "[Drawer] - Categoria Camisas",
+    "props": {
+      "id": "menu-mobile-accordion-camisas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Camisas",
+        "text": "Camisas"
+      },
+      "blockClass": ["mobile"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#camisas"]
+  },
+  "vtex.menu@2.x:submenu.accordion#camisas": {
+    "props": {
+      "blockClass": ["mobile"]
+    },
+    "children": ["vtex.menu@2.x:menu#submenu-camisas"]
+  },
+  "vtex.menu@2.x:menu#submenu-camisas": {
+    "props": {
+      "orientation": "vertical",
+      "experimentalOptimizeRendering": true,
+      "blockClass": ["submenu-mobile"]
+    },
+    "children": [
+      "menu-item#camisas-teste-1",
+      "menu-item#camisas-teste-2",
+      "menu-item#camisas-teste-3",
+      "menu-item#camisas-ver-tudo"
+    ]
+  }
+}
