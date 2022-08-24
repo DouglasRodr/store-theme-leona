@@ -53,3 +53,7 @@
   text-decoration: none;
   font-weight: 400;
 }
+
+.flexRow--login-mobile :global(.vtex-button__label)::before {
+  display: none;
+}
