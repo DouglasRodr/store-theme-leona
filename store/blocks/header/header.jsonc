@@ -129,5 +129,12 @@
       "width": "77.5",
       "height": "27.5"
     }
+  },
+  "login": {
+    "props":{
+      "showIconProfile": false,
+      "hideIconLabel": true,
+      "blockClass": "login"
+    }
   }
 }
